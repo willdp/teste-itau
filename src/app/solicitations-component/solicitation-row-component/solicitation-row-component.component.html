@@ -1,0 +1,30 @@
+<div class="row-container" *ngFor=" let item of solicitationsArray">
+    <div class="row-id row-cell">
+        <span class="id"></span>
+    </div>
+    <div class="row-company-CNPJ row-cell">
+        <span class="company">{{item.company}}</span>
+        <span class="CNPJ">CNPJ: {{item.CNPJ}}</span>
+    </div>
+    <div class="row-plan row-cell">
+        <span class="plan">{{item.plan}}</span>
+    </div>
+    <div class="row-bill row-cell">
+        <span>{{item.bill}}</span>
+    </div>
+    <div class="row-minutes row-cell">
+        <span>{{item.minutes}}</span>
+    </div>
+    <div class="row-plan-value row-cell">
+        <span>{{item.planValue}}</span>
+    </div>
+    <div class="row-join-date row-cell">
+        <span>{{item.joinDate}}</span>
+    </div>
+    <div class="row-send-date row-cell">
+        <span>{{item.sendDate}}</span>
+    </div>
+    <div class="row-action row-cell">
+        <span class="action">...</span>
+    </div>
+</div>

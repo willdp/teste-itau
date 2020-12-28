@@ -1,0 +1,38 @@
+.forms-input {
+    border: 1px solid white;
+    border-bottom: 1px solid gray;
+    height: 20px;
+}
+
+.forms-company {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+        input {
+            width: 340px;
+        }
+}
+
+.add-button {
+    align-items: center;
+    background-color: #EC7000;
+    color: #ffffff;
+    align-self: flex-end;
+    border-radius: 3%;
+    border: white;
+    padding: 1% 2%;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 18%;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 180px 180px 180px 180px;
+}
+
+.form-button-container {
+    display: flex
+}
+

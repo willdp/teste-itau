@@ -1,0 +1,30 @@
+.row-company-CNPJ {
+    grid-area: myArea;
+    text-align: left;
+    display: grid;
+}
+
+.row-container {
+    font-size: 13px;
+    display: grid;
+    grid: '. myArea myArea myArea . . . . . . . . .';
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 165px 100px;
+    grid-template-rows: 20px;
+    margin: 0 9% 0 8%;
+    text-align: center;
+    height: 100px;
+    align-content: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.row-cell {
+     span.id,
+     span.plan,
+     span.company,
+     span.action {
+        font-weight: bold;
+     };
+     span.CNPJ {
+        color: gray;
+     };
+}

@@ -1,0 +1,10 @@
+<div class="solicitations-text">   
+    <h1>Minhas solicitações</h1>
+    <p>Aqui você pode acompanhar o andamento de suas solicitações.</p>
+</div>
+<div class="solicitatation-table-header">
+    <div *ngFor="let item of headerTitles" class="unit-title" [ngClass]="item.cssClass">
+        <span>{{item.title}}</span>
+    </div>
+</div>
+<app-solicitation-row-component></app-solicitation-row-component>

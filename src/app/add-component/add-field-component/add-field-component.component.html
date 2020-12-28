@@ -1,0 +1,9 @@
+<div class="form-button-container"> 
+    <div class="form-container">
+        <div class="input-container" *ngFor='let items of formConfig' [ngClass]="items.cssClass">
+            <p style="color: gray;">{{items.title}}</p>
+            <input type="text" class="forms-input" [(ngModel)]="items.value">
+        </div>
+    </div>  
+        <button class="add-button" (click)="postSolicitation()">Adicionar Solicitação</button>
+</div>     
