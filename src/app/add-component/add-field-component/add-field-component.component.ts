@@ -82,11 +82,7 @@ public solicitation = {
       this.solicitation.minutes = this.formConfig[4].value
       this.solicitation.planValue = this.formConfig[5].value
       this.solicitation.joinDate = this.formConfig[6].value
-      this.http.post('https://agdo-server.appspot.com/solicitacoes', this.solicitation).subscribe(
-          (error) => {
-              console.log(error)
-          }
-      )
+      this.http.post('https://agdo-server.appspot.com/solicitacoes', this.solicitation).subscribe()
       location.reload()
   }
 
